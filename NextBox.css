@@ -1,0 +1,13 @@
+body{margin:0px;padding:0px;}
+.NextBoxBG{position:absolute;top:0px;left:0px;margin:0px;padding:0px;background:url(images/bg.png); width:100%;height:100%;}
+.NextBox{top:-1000px;font-family: Verdana; font-size:12px; color:#545454;position:absolute;float:left;display:inline;overflow:hidden;width:364px;}
+.NextBox .top,.NextBox .bottom,.NextBox .center,.NextBox .center img,.NextBox .center p{float:left;display:inline;overflow:hidden;}
+.NextBox .top{width:363px;height:19px;background:url(images/top.png);padding:7px 0px 0px 15px;font-weight: bold;}
+.NextBox .bottom{width:363px;height:49px;background:url(images/bottom.png);}
+.NextBox .center{width:363px;background:url(images/center.png);}
+.NextBox .center .alert_image{width:45px;height: 40px;background:url(images/icon_normal.jpg);margin:15px 0px 15px 26px;display: inline-block;float:left;}
+.NextBox .center img{width:46px;height: 41px;background:url(images/icon_normal.jpg);margin:15px 0px 15px 26px;border:0px solid red;}
+.NextBox .center p{width:240px;margin:12px 0px 15px 26px;}
+.NextBox .bottom a.ok{margin:0px;padding:0px;float:right;display:inline;overflow: hidden;width:94px;height:39px;background:url(images/ok.png);margin:2px 6px 0px 0px;cursor: pointer;}
+.NextBox .bottom a.ok:hover{background:url(images/ok2.png);}
+.NextBox .bottom a.ok:active {background:url(images/ok3.png);}
